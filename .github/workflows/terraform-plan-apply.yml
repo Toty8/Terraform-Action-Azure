@@ -71,4 +71,4 @@ jobs:
 
     # Terraform Apply
     - name: Apply the plan
-      run: terraform apply
+      run: terraform apply -auth-approve tfplan
